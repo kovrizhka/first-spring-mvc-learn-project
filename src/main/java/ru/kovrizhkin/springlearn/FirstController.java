@@ -8,6 +8,6 @@ public class FirstController {
 
     @GetMapping("/hello-world")
     public String sayHello() {
-        return "hello_world";
+        return "hello_world.html";
     }
 }
